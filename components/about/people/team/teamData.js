@@ -13,18 +13,20 @@ import {
   muskanChawda,
   vikalpSharma,
   gauravMehra,
-  seliya
+  seliya,
+  gayathriPardeshi,
+  jyotsanaSingh,
+  ashishMishra
 } from "@/public/assetManager";
-
 
 const boardOfDirectorData = [
   {
     name: "Ashish Mishra",
     socials: {
-      linkedin: "https://www.linkedin.com/in/iasmishra/",
+      linkedin: "https://www.linkedin.com/in/amishraoffl/",
     },
     position: "Founder",
-    images: [{ src: TeamMemberImage }],
+    images: [{ src: ashishMishra }],
   },
   {
     name: "Jyotsana Singh",
@@ -32,7 +34,7 @@ const boardOfDirectorData = [
       linkedin: "https://www.linkedin.com/in/jyotsana-singh-6ba51a249/",
     },
     position: "Director",
-    images: [{ src: TeamMemberImage }],
+    images: [{ src: jyotsanaSingh }],
   },
 ];
 
@@ -50,7 +52,7 @@ const teamHeadData = [
     socials: {
       linkedin: "https://www.linkedin.com/in/vidushi-verma-313327273/",
     },
-    position: "Membership Head",
+    position: "YCLA Head",
     images: [{ src: vidushiVerma1 }],
   },
   {
@@ -98,7 +100,7 @@ const ycprTeamData = [
       linkedin: "https://www.linkedin.com/in/gayatri-pardeshi-626639235/",
     },
     position: "Policy Researcher",
-    images: [{ src: TeamMemberImage }],
+    images: [{ src: gayathriPardeshi }],
   },
   {
     name: "Srishtistuti Roy",
@@ -167,7 +169,7 @@ const socialMediaGraphicsTeam = [
     socials: {
       linkedin: "https://www.linkedin.com/in/pallavi-khusar-132336328",
     },
-    position: "Design Lead",
+    position: "Member",
     images: [{ src: pallaviKhusar }],
   },
 ];

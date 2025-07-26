@@ -70,7 +70,9 @@ import vidushiVerma1 from "./assets/about/people/team/vidushi-verma-1.jpeg";
 import vidushiVerma2 from "./assets/about/people/team/vidushi-verma-2.jpeg";
 import vikalpSharma from "./assets/about/people/team/vikalp-sharma.jpg";
 import seliya from "./assets/about/people/team/seliya.jpeg";
-
+import gayathriPardeshi from "./assets/about/people/team/gayatri-pardeshi.jpg"
+import ashishMishra from "./assets/about/people/team/ashish-mishra.jpg";
+import jyotsanaSingh from "./assets/about/people/team/jyotsana-singh.jpg";
 
 export {
   HeroImage,
@@ -136,5 +138,8 @@ export {
   vidushiVerma1,
   vidushiVerma2,
   vikalpSharma,
-  seliya
+  seliya,
+  gayathriPardeshi,
+  ashishMishra,
+  jyotsanaSingh
 }
