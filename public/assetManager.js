@@ -52,6 +52,24 @@ import Partner5Image from "./assets/about/people/partner/p5.png"
 import Partner6Image from "./assets/about/people/partner/p6.png"
 import Partner7Image from "./assets/about/people/partner/p7.png"
 
+import aashishaJoesph from "./assets/about/people/team/aashisha-joseph.jpg";
+import abhayMishra from "./assets/about/people/team/abhay-mishra.jpg";
+import anshumanBahree from "./assets/about/people/team/anshuman-bahree.jpg";
+import dishaDubey from "./assets/about/people/team/disha-dubey.jpg";
+import gauravMehra from "./assets/about/people/team/gaurav-mehra.jpg";
+import gauravPawar from "./assets/about/people/team/gaurav-pawar.png";
+import muskanChawda from "./assets/about/people/team/Muskan-Chawda.jpg";
+import pallaviKhusar from "./assets/about/people/team/Pallavi-Khusar.png";
+import sakshiSharma from "./assets/about/people/team/Sakshi-Sharma.jpeg";
+import shivashishNarayan2 from "./assets/about/people/team/Shivashish-Narayan-2.jpg";
+import shivashishNarayan from "./assets/about/people/team/SHIVASHISH-NARAYAN.jpg";
+import srishtistutiRoy from "./assets/about/people/team/srishtistuti-roy.jpg";
+import stuti from "./assets/about/people/team/stuti.jpg";
+import teamMember from "./assets/about/people/team/team-member.png";
+import vidushiVerma1 from "./assets/about/people/team/vidushi-verma-1.jpeg";
+import vidushiVerma2 from "./assets/about/people/team/vidushi-verma-2.jpeg";
+import vikalpSharma from "./assets/about/people/team/vikalp-sharma.jpg";
+import seliya from "./assets/about/people/team/seliya.jpeg";
 
 
 export {
@@ -101,4 +119,22 @@ export {
   Partner5Image,
   Partner6Image,
   Partner7Image,
+  aashishaJoesph,
+  abhayMishra,
+  anshumanBahree,
+  dishaDubey,
+  gauravMehra,
+  gauravPawar,
+  muskanChawda,
+  pallaviKhusar,
+  sakshiSharma,
+  shivashishNarayan2,
+  shivashishNarayan,
+  srishtistutiRoy,
+  stuti,
+  teamMember,
+  vidushiVerma1,
+  vidushiVerma2,
+  vikalpSharma,
+  seliya
 }

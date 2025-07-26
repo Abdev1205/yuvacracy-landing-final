@@ -1,259 +1,176 @@
-import { TeamMemberImage } from "@/public/assetManager"
+import {
+  TeamMemberImage,
+  aashishaJoesph,
+  abhayMishra,
+  anshumanBahree,
+  dishaDubey,
+  shivashishNarayan2,
+  vidushiVerma1,
+  gauravPawar,
+  pallaviKhusar,
+  sakshiSharma,
+  srishtistutiRoy,
+  muskanChawda,
+  vikalpSharma,
+  gauravMehra,
+  seliya
+} from "@/public/assetManager";
 
 
 const boardOfDirectorData = [
   {
     name: "Ashish Mishra",
     socials: {
-      twitter: "@joebridges",
-      instagram: "@joebridges",
-      facebook: "joebridges",
-      linkedin: "https://www.linkedin.com/in/abhay-mishra-9669711b5/",
-      github: "https://github.com/joebridges",
-      website: "https://joebridges.com",
-      email: "joe.bridges@example.com",
-      phone: "+1 (555) 555-5555",
-      youtue: "http://youtuebe.com/"
+      linkedin: "https://www.linkedin.com/in/iasmishra/",
     },
     position: "Founder",
-    images: [
-      {
-        src: TeamMemberImage
-      }
-    ]
+    images: [{ src: TeamMemberImage }],
   },
   {
     name: "Jyotsana Singh",
     socials: {
-      twitter: "@joebridges",
-      instagram: "@joebridges",
-      facebook: "joebridges",
-      linkedin: "https://www.linkedin.com/in/abhay-mishra-9669711b5/",
-      github: "https://github.com/joebridges",
-      website: "https://joebridges.com",
-      email: "joe.bridges@example.com",
-      phone: "+1 (555) 555-5555",
-      youtue: "http://youtuebe.com/"
+      linkedin: "https://www.linkedin.com/in/jyotsana-singh-6ba51a249/",
     },
     position: "Director",
-    images: [
-      {
-        src: TeamMemberImage
-      }
-    ]
+    images: [{ src: TeamMemberImage }],
   },
-]
+];
 
 const teamHeadData = [
   {
     name: "Shivashish Narayan",
     socials: {
-      twitter: "@joebridges",
-      instagram: "@joebridges",
-      facebook: "joebridges",
-      linkedin: "https://www.linkedin.com/in/abhay-mishra-9669711b5/",
-      github: "https://github.com/joebridges",
-      website: "https://joebridges.com",
-      email: "joe.bridges@example.com",
-      phone: "+1 (555) 555-5555",
-      youtue: "http://youtuebe.com/"
+      linkedin: "https://www.linkedin.com/in/shivashish-narayan-34b519186/",
     },
-    position: "Head – Operations",
-    images: [
-      {
-        src: TeamMemberImage
-      }
-    ]
+    position: "Head - Operations",
+    images: [{ src: shivashishNarayan2 }],
   },
   {
-    name: "Muskan Chawda",
+    name: "Vidushi Verma",
     socials: {
-      twitter: "@joebridges",
-      instagram: "@joebridges",
-      facebook: "joebridges",
-      linkedin: "https://www.linkedin.com/in/abhay-mishra-9669711b5/",
-      github: "https://github.com/joebridges",
-      website: "https://joebridges.com",
-      email: "joe.bridges@example.com",
-      phone: "+1 (555) 555-5555",
-      youtue: "http://youtuebe.com/"
+      linkedin: "https://www.linkedin.com/in/vidushi-verma-313327273/",
     },
     position: "Membership Head",
-    images: [
-      {
-        src: TeamMemberImage
-      }
-    ]
+    images: [{ src: vidushiVerma1 }],
   },
   {
     name: "Abhay Mishra",
     socials: {
-      twitter: "@joebridges",
-      instagram: "@joebridges",
-      facebook: "joebridges",
-      linkedin: "https://www.linkedin.com/in/abhay-mishra-9669711b5/",
-      github: "https://github.com/joebridges",
-      website: "https://joebridges.com",
-      email: "joe.bridges@example.com",
-      phone: "+1 (555) 555-5555",
-      youtue: "http://youtuebe.com/"
+      linkedin: "https://www.linkedin.com/in/abhay-mishra-developer/",
     },
-    position: "Tech Head ",
-    images: [
-      {
-        src: TeamMemberImage
-      }
-    ]
+    position: "Tech Head",
+    images: [{ src: abhayMishra }],
   },
   {
     name: "Gaurav Pawar",
     socials: {
-      twitter: "@joebridges",
-      instagram: "@joebridges",
-      facebook: "joebridges",
-      linkedin: "https://www.linkedin.com/in/abhay-mishra-9669711b5/",
-      github: "https://github.com/joebridges",
-      website: "https://joebridges.com",
-      email: "joe.bridges@example.com",
-      phone: "+1 (555) 555-5555",
-      youtue: "http://youtuebe.com/"
+      linkedin: "https://www.linkedin.com/in/gaurav-pawar-a582a816b/",
     },
     position: "PR and Outreach",
-    images: [
-      {
-        src: TeamMemberImage
-      }
-    ]
+    images: [{ src: gauravPawar }],
   },
-]
+];
+
 
 const techTeamData = [
   {
-    name: "S. Eliya",
+    name: "Salagala Eliya",
     socials: {
-      twitter: "@joebridges",
-      instagram: "@joebridges",
-      facebook: "joebridges",
-      linkedin: "https://www.linkedin.com/in/abhay-mishra-9669711b5/",
-      github: "https://github.com/joebridges",
-      website: "https://joebridges.com",
-      email: "joe.bridges@example.com",
-      phone: "+1 (555) 555-5555",
-      youtue: "http://youtuebe.com/"
+      linkedin: "https://www.linkedin.com/in/salagala-eliya-098057240/",
     },
-    position: "UI/ UX Designer ",
-    images: [
-      {
-        src: TeamMemberImage
-      }
-    ]
+    position: "UI/UX Designer",
+    images: [{ src: seliya }],
   },
   {
     name: "Vikalp Sharma",
     socials: {
-      twitter: "@joebridges",
-      instagram: "@joebridges",
-      facebook: "joebridges",
-      linkedin: "https://www.linkedin.com/in/abhay-mishra-9669711b5/",
-      github: "https://github.com/joebridges",
-      website: "https://joebridges.com",
-      email: "joe.bridges@example.com",
-      phone: "+1 (555) 555-5555",
-      youtue: "http://youtuebe.com/"
+      linkedin: "https://www.linkedin.com/in/vikalp-sharma-/",
     },
-    position: "Web Developer ",
-    images: [
-      {
-        src: TeamMemberImage
-      }
-    ]
+    position: "Web Developer",
+    images: [{ src: vikalpSharma }],
   },
-]
+];
 
 const ycprTeamData = [
   {
     name: "Gayatri Pardeshi",
     socials: {
-      twitter: "@joebridges",
-      instagram: "@joebridges",
-      facebook: "joebridges",
-      linkedin: "https://www.linkedin.com/in/abhay-mishra-9669711b5/",
-      github: "https://github.com/joebridges",
-      website: "https://joebridges.com",
-      email: "joe.bridges@example.com",
-      phone: "+1 (555) 555-5555",
-      youtue: "http://youtuebe.com/"
+      linkedin: "https://www.linkedin.com/in/gayatri-pardeshi-626639235/",
     },
-    position: "YCPR Team Member",
-    images: [
-      {
-        src: TeamMemberImage
-      }
-    ]
+    position: "Policy Researcher",
+    images: [{ src: TeamMemberImage }],
   },
   {
-    name: "Aashisha Joseph ",
+    name: "Srishtistuti Roy",
     socials: {
-      twitter: "@joebridges",
-      instagram: "@joebridges",
-      facebook: "joebridges",
-      linkedin: "https://www.linkedin.com/in/abhay-mishra-9669711b5/",
-      github: "https://github.com/joebridges",
-      website: "https://joebridges.com",
-      email: "joe.bridges@example.com",
-      phone: "+1 (555) 555-5555",
-      youtue: "http://youtuebe.com/"
+      linkedin: "https://www.linkedin.com/in/srishtistuti-r-883b73266/",
     },
-    position: "YCPR Team Member",
-    images: [
-      {
-        src: TeamMemberImage
-      }
-    ]
+    position: "Policy Researcher",
+    images: [{ src: srishtistutiRoy }],
   },
-]
+  {
+    name: "Aashisha Joseph",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/aashisha-joseph-10739931a/",
+    },
+    position: "Member",
+    images: [{ src: aashishaJoesph }],
+  },
+  {
+    name: "Anshuman Bahree",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/anshuman-bahree-628b98290/",
+    },
+    position: "Member",
+    images: [{ src: anshumanBahree }],
+  },
+  {
+    name: "Gautam Mehra",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/gautam-mehra-1115b9267/",
+    },
+    position: "Member",
+    images: [{ src: gauravMehra }],
+  },
+];
+
 const yclaTeamData = [
+  {
+    name: "Sakshi Sharma",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/sakshii-sharma-a661281a0/",
+    },
+    position: "Legal Researcher",
+    images: [{ src: sakshiSharma }],
+  },
   {
     name: "Disha Dubey",
     socials: {
-      twitter: "@joebridges",
-      instagram: "@joebridges",
-      facebook: "joebridges",
-      linkedin: "https://www.linkedin.com/in/abhay-mishra-9669711b5/",
-      github: "https://github.com/joebridges",
-      website: "https://joebridges.com",
-      email: "joe.bridges@example.com",
-      phone: "+1 (555) 555-5555",
-      youtue: "http://youtuebe.com/"
+      linkedin: "https://www.linkedin.com/in/advocate-disha-dubey/",
     },
-    position: "YCLA Team Member",
-    images: [
-      {
-        src: TeamMemberImage
-      }
-    ]
+    position: "Member",
+    images: [{ src: dishaDubey }],
   },
   {
-    name: "Shubhanshu Patel",
+    name: "Muskan Chawda",
     socials: {
-      twitter: "@joebridges",
-      instagram: "@joebridges",
-      facebook: "joebridges",
-      linkedin: "https://www.linkedin.com/in/abhay-mishra-9669711b5/",
-      github: "https://github.com/joebridges",
-      website: "https://joebridges.com",
-      email: "joe.bridges@example.com",
-      phone: "+1 (555) 555-5555",
-      youtue: "http://youtuebe.com/"
+      linkedin: "https://www.linkedin.com/in/muskan-chawda-022a6420a/",
     },
-    position: "YCLA Team Member",
-    images: [
-      {
-        src: TeamMemberImage
-      }
-    ]
+    position: "Member",
+    images: [{ src: muskanChawda }],
   },
+];
 
-]
+const socialMediaGraphicsTeam = [
+  {
+    name: "Pallavi Khusar",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/pallavi-khusar-132336328",
+    },
+    position: "Design Lead",
+    images: [{ src: pallaviKhusar }],
+  },
+];
 
-export { boardOfDirectorData, teamHeadData, techTeamData, ycprTeamData, yclaTeamData }
+
+export { boardOfDirectorData, teamHeadData, techTeamData, ycprTeamData, yclaTeamData, socialMediaGraphicsTeam }
