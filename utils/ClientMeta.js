@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
-import generateMeta from "@/utils/MetaGenerator"; // Import your metadata generator function
+import generateMeta from "@/utils/MetaGenerator";
 
 export default function ClientMeta() {
   const pathname = usePathname();
@@ -10,6 +10,7 @@ export default function ClientMeta() {
   useEffect(() => {
     const meta = generateMeta(pathname);
     document.title = meta.title;
+
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', meta.description);
@@ -18,6 +19,13 @@ export default function ClientMeta() {
       newMetaDescription.name = 'description';
       newMetaDescription.content = meta.description;
       document.head.appendChild(newMetaDescription);
+    }
+
+    // Tracking page view for Google Analytics
+    if (typeof gtag !== 'undefined') {
+      gtag('config', process.env.NEXT_PUBLIC_GOOGLE_GTAG, {
+        page_path: pathname,
+      });
     }
   }, [pathname]);
 
