@@ -235,7 +235,8 @@ const DevelopmentData5 = [
     desc: (
       <span>
         <span className="mr-2 font-bold">Content Collaboration:</span>
-        Co-developing editorials, podcasts, or documentaries on governance and legal issues.
+        Co-developing editorials, podcasts, or documentaries on governance and
+        legal issues.
       </span>
     ),
   },
@@ -259,7 +260,6 @@ const DevelopmentData5 = [
   },
 ];
 
-
 const Collaboration = () => {
   return (
     <SupportLayout>
@@ -274,8 +274,13 @@ const Collaboration = () => {
           title={"Collaboration"}
           subtitle={
             <>
-            YuvaCracy Foundation, through its focus on promoting India-centric thoughts and its two specialized centers—YuvaCracy Centre for Policy Research (YCPR) and YuvaCracy Centre for Legal Affairs (YCLA)—offers diverse collaboration opportunities with educational institutions, NGOs, and other organizations.
-            <span className="font-semibold"> YuvaCracy provides various collaboration opportunities such as:</span>
+              At YuvaCracy, we believe that lasting impact is built through
+              collaboration, not isolation. YuvaCracy Foundation, through its
+              focus on promoting India-centric thought leadership and its two
+              specialized centers; YuvaCracy Centre for Policy Research (YCPR)
+              and YuvaCracy Centre for Legal Affairs (YCLA) offers diverse
+              collaboration opportunities for educational institutions, NGOs,
+              legal bodies, corporate entities, and government organizations.
             </>
           }
         />
@@ -304,7 +309,7 @@ const Collaboration = () => {
         </div> */}
 
         {/* <HomeStoriesOfImpact /> */}
-        <ImageTextComp1
+        {/* <ImageTextComp1
           title={"With Educational Institutions"}
           subtitle={"Building Informed and Engaged Students"}
           desc={
@@ -316,9 +321,9 @@ const Collaboration = () => {
           }
           imgSrc={PeopleGroup1}
           data={DevelopmentData1}
-        />
+        /> */}
 
-        <ImageTextComp1
+        {/* <ImageTextComp1
           title={"With NGOs"}
           subtitle={""}
           mirror={true}
@@ -331,9 +336,9 @@ const Collaboration = () => {
           }
           imgSrc={PeopleGroup2}
           data={DevelopmentData2}
-        />
+        /> */}
 
-        <ImageTextComp1
+        {/* <ImageTextComp1
           title={"With Government and Public Institutions"}
           subtitle={""}
           desc={
@@ -345,9 +350,9 @@ const Collaboration = () => {
           }
           imgSrc={PeopleGroup1}
           data={DevelopmentData3}
-        />
+        /> */}
 
-        <ImageTextComp1
+        {/* <ImageTextComp1
           title={"With Corporations and Think Tanks"}
           subtitle={""}
           mirror={true}
@@ -360,9 +365,9 @@ const Collaboration = () => {
           }
           imgSrc={PeopleGroup2}
           data={DevelopmentData4}
-        />
+        /> */}
 
-        <ImageTextComp1
+        {/* <ImageTextComp1
           title={"With Media Organizations"}
           subtitle={""}
           desc={
@@ -373,16 +378,16 @@ const Collaboration = () => {
           }
           imgSrc={PeopleGroup1}
           data={DevelopmentData5}
-        />
+        /> */}
 
         {/* <GetInTouchCard /> */}
 
-        <span className="text-lg font-openSans text-textSecond">
+        {/* <span className="text-lg font-openSans text-textSecond">
           YuvaCracy Foundation seeks to work with like-minded institutions to
           create a meaningful impact through education, research, and advocacy.
           Whether it’s empowering students, influencing policy, or driving
           grassroots change, collaboration remains at the heart of our mission.
-        </span>
+        </span> */}
       </div>
     </SupportLayout>
   );

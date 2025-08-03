@@ -10,6 +10,9 @@ import SubHead from "@/components/common/SubHeadings/SubHead";
 // import CareerCardData from "@/components/careers/careerOpportunities/CareerCardData";
 import SuspenseHandler from "@/utils/SuspenseHandler";
 import ScrollHandler from "@/utils/ScrollHandler";
+import { FaWhatsapp } from "react-icons/fa";
+import PrimaryButton from "@/components/common/Button/PrimaryButton";
+import Link from "next/link";
 
 // const text =
 //   "YuvaCracy welcomes diverse voices and fresh perspectives. By writing for us, you can share your insights on youth leadership, civic participation, and social justice, helping to shape conversations that matter.";
@@ -40,9 +43,14 @@ const CareerDatabases = () => {
                 }
                 <br />
                 <br />
-                <span className="font-semibold">
+                {/* <span className="font-semibold">
                 {"Stay tuned for upcoming updates and new opportunities."}
-                </span>
+                </span> */}
+
+                <Link href="https://chat.whatsapp.com/LvL7MwJqp8ZJgK1WUNQuUg" target="_blank" passHref>
+                  <PrimaryButton icon={<FaWhatsapp className="mr-[0.3rem] text-2xl" />} data={{title: "WhatsApp", execute: () => {}}} style={"flex-row-reverse pl-[0.5rem] shadow-md bg-[#128c7e]"} />
+                </Link>
+                {/* <PrimaryButton data={{title: "WhatsApp"}} icon={<FaWhatsapp className=" mr-[0.3rem] text-3xl" /> }  /> */}
               </>
             }
           />
