@@ -14,7 +14,6 @@ import {
 } from "@/components/about/people/team/teamData";
 import TeamCard from "@/components/about/people/team/TeamCard";
 import { IoArrowForward } from "react-icons/io5";
-import Link from "next/link";
 import PrimaryButton from "@/components/common/Button/PrimaryButton";
 const OurTeam = () => {
   return (
