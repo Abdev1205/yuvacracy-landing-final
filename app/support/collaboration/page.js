@@ -309,7 +309,7 @@ const Collaboration = () => {
         </div> */}
 
         {/* <HomeStoriesOfImpact /> */}
-        {/* <ImageTextComp1
+        <ImageTextComp1
           title={"With Educational Institutions"}
           subtitle={"Building Informed and Engaged Students"}
           desc={
@@ -321,9 +321,9 @@ const Collaboration = () => {
           }
           imgSrc={PeopleGroup1}
           data={DevelopmentData1}
-        /> */}
+        />
 
-        {/* <ImageTextComp1
+        <ImageTextComp1
           title={"With NGOs"}
           subtitle={""}
           mirror={true}
@@ -336,9 +336,9 @@ const Collaboration = () => {
           }
           imgSrc={PeopleGroup2}
           data={DevelopmentData2}
-        /> */}
+        />
 
-        {/* <ImageTextComp1
+        <ImageTextComp1
           title={"With Government and Public Institutions"}
           subtitle={""}
           desc={
@@ -350,9 +350,9 @@ const Collaboration = () => {
           }
           imgSrc={PeopleGroup1}
           data={DevelopmentData3}
-        /> */}
+        />
 
-        {/* <ImageTextComp1
+        <ImageTextComp1
           title={"With Corporations and Think Tanks"}
           subtitle={""}
           mirror={true}
@@ -365,9 +365,9 @@ const Collaboration = () => {
           }
           imgSrc={PeopleGroup2}
           data={DevelopmentData4}
-        /> */}
+        />
 
-        {/* <ImageTextComp1
+        <ImageTextComp1
           title={"With Media Organizations"}
           subtitle={""}
           desc={
@@ -378,16 +378,16 @@ const Collaboration = () => {
           }
           imgSrc={PeopleGroup1}
           data={DevelopmentData5}
-        /> */}
+        />
 
         {/* <GetInTouchCard /> */}
 
-        {/* <span className="text-lg font-openSans text-textSecond">
+        <span className="text-lg font-openSans text-textSecond">
           YuvaCracy Foundation seeks to work with like-minded institutions to
           create a meaningful impact through education, research, and advocacy.
           Whether it’s empowering students, influencing policy, or driving
           grassroots change, collaboration remains at the heart of our mission.
-        </span> */}
+        </span>
       </div>
     </SupportLayout>
   );

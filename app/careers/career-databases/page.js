@@ -48,9 +48,9 @@ const CareerDatabases = () => {
                 </span> */}
 
                 <Link href="https://chat.whatsapp.com/LvL7MwJqp8ZJgK1WUNQuUg" target="_blank" passHref>
-                  <PrimaryButton icon={<FaWhatsapp className="mr-[0.3rem] text-2xl" />} data={{title: "WhatsApp", execute: () => {}}} style={"flex-row-reverse pl-[0.5rem] shadow-md bg-[#128c7e]"} />
-                </Link>
+                  <PrimaryButton primStyle="bg-[#0fb52e]" icon={<FaWhatsapp className="mr-[0.3rem] text-2xl" />} data={{title: "WhatsApp", execute: () => {}}} style={"flex-row-reverse pl-[0.5rem] shadow-md"} />
                 {/* <PrimaryButton data={{title: "WhatsApp"}} icon={<FaWhatsapp className=" mr-[0.3rem] text-3xl" /> }  /> */}
+                </Link>
               </>
             }
           />
