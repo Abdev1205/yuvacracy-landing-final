@@ -235,7 +235,8 @@ const DevelopmentData5 = [
     desc: (
       <span>
         <span className="mr-2 font-bold">Content Collaboration:</span>
-        Co-developing editorials, podcasts, or documentaries on governance and legal issues.
+        Co-developing editorials, podcasts, or documentaries on governance and
+        legal issues.
       </span>
     ),
   },
@@ -259,7 +260,6 @@ const DevelopmentData5 = [
   },
 ];
 
-
 const Collaboration = () => {
   return (
     <SupportLayout>
@@ -274,8 +274,13 @@ const Collaboration = () => {
           title={"Collaboration"}
           subtitle={
             <>
-            YuvaCracy Foundation, through its focus on promoting India-centric thoughts and its two specialized centers—YuvaCracy Centre for Policy Research (YCPR) and YuvaCracy Centre for Legal Affairs (YCLA)—offers diverse collaboration opportunities with educational institutions, NGOs, and other organizations.
-            <span className="font-semibold"> YuvaCracy provides various collaboration opportunities such as:</span>
+              At YuvaCracy, we believe that lasting impact is built through
+              collaboration, not isolation. YuvaCracy Foundation, through its
+              focus on promoting India-centric thought leadership and its two
+              specialized centers; YuvaCracy Centre for Policy Research (YCPR)
+              and YuvaCracy Centre for Legal Affairs (YCLA) offers diverse
+              collaboration opportunities for educational institutions, NGOs,
+              legal bodies, corporate entities, and government organizations.
             </>
           }
         />

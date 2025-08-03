@@ -58,19 +58,20 @@ const Ycla = () => {
         />
 
         <ImageTextComp1
-          title={"What We Offer"}
+          title={"Legal Research"}
           subtitle={""}
           imgSrc={MeetingImg}
           customTextStyle="md:pt-12"
           desc={
             <div>
-              <span className="text-xl font-bold">Legal Research</span>
-              <br />
+              {/* <span className="text-xl font-bold">Legal Research</span>
+              <br /> */}
               <span className="text-xl">
                 Dive deep into the frameworks of law, governance, policy, and
                 justice. Our research initiatives encourage exploration,
                 analysis, and innovation to tackle contemporary legal
-                challenges.
+                challenges. Our programs guide students and young professionals
+                in conducting meaningful, application-based legal research.
               </span>
             </div>
           }
@@ -80,13 +81,11 @@ const Ycla = () => {
         <ImageTextComp1
           mirror={true}
           title={"Quality Internships"}
-          subtitle={"Turning Knowledge into Action"}
+          subtitle={"Turning knowledge into Action"}
           customTextStyle="md:pt-12"
           desc={
             <span className="text-xl">
-              Unlock transformative career opportunities with our curated
-              internships. We connect ambitious learners with impactful
-              organizations to build skills and pave the way for future success.
+              We connect motivated law students with high-impact internships that offer real-world legal exposure. These experiences are carefully curated to enhance skills, build confidence, and help define career paths.
             </span>
           }
           data={""}
@@ -94,14 +93,12 @@ const Ycla = () => {
         />
 
         <ImageTextComp1
-          title={"Skill Building"}
+          title={"Skill-Building & Practical Training"}
           subtitle={""}
           customTextStyle="md:pt-12"
           desc={
             <span className="text-xl">
-              From mastering legal writing to excelling in courtroom advocacy,
-              our workshops and hands-on training sessions empower you to thrive
-              in the legal field.
+              From legal writing and reading bare acts to mooting, advocacy, and legal reasoning, our hands-on workshops are designed to translate classroom theory into courtroom and professional readiness.
             </span>
           }
           data={""}
@@ -112,12 +109,10 @@ const Ycla = () => {
           mirror={true}
           title={"Community & Events"}
           customTextStyle="md:pt-12"
-          subtitle={"Turning Knowledge into Action"}
+          subtitle={"Be part of a vibrant network"}
           desc={
             <span className="text-xl">
-              Be part of a vibrant network of legal minds. Our seminars,
-              conferences, and interactive events are designed to inspire
-              collaboration, foster learning, and drive growth.
+              YCLA hosts interactive legal seminars, panel discussions, and policy conferences that bring together students, advocates, researchers, and educators. These platforms spark dialogue, encourage collaboration, and build a vibrant legal community.
             </span>
           }
           data={""}
